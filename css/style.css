@@ -1,0 +1,446 @@
+.cont {
+	width:100%;
+	height: 100vh;
+	z-index: 100;
+	background-color:white;
+
+}
+
+/*estilos*/
+
+background-image {
+	
+}
+
+h1{
+	text-align: center;
+
+}
+
+h2 {
+	font-family: 'Helvetica', Arial;
+	font-size: 2em;
+	color: white;
+	font-weight: 600;
+
+}
+
+
+h3 {
+	font-family: 'Helvetica', Arial;
+	color: white;
+	font-size: 2em;
+	opacity: 0.6;
+}
+
+h4 {
+	font-family: 'Helvetica', Arial;
+	color: white;
+	font-size: 4em;
+	padding-top: 12%;
+
+}
+
+p {
+	color:grey;
+}
+
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+
+
+/* nav */
+
+
+.nav {
+	width: 100%;
+	position: fixed;
+	top: 20;
+	z-index: 100;
+}
+
+.nav-item {
+	color: grey;
+	font-family: 'Cousine', monospace;
+
+
+}
+
+.nav-link {
+	font-family: 'Cousine', monospace;
+	color: grey;
+	display: inline;
+	margin: 0px 20px;
+
+}
+
+.nav-item:hover {
+	color: white;
+	opacity: 0.5;
+}
+
+.nav-link:hover {
+	color: white;
+	opacity: 0.5;
+}
+/* logo */
+
+.top {
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 23%;
+
+}
+
+
+.name {
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-size: 5em;
+	color: white;
+	font-weight: 600;
+	
+
+}
+
+.desc {
+	font-family: 'Helvetica', Arial;
+	font-size: 2em;
+	color: white;
+	font-weight: 600;
+	margin-bottom: 0px;
+
+
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+   
+}
+
+
+/* about - cv */
+
+#about {
+	width: 800px;
+	margin-left: 5%;
+	padding-top: 9%;
+	margin-bottom: -10%;
+
+}
+
+
+
+
+.ab {
+	font-family: 'Cousine', monospace;
+	color: white;
+	font-size: 0.8em;
+	opacity: 0.6;
+	margin-top: 40px;
+}
+
+
+.ab a {
+	color: white;
+	text-decoration: none;
+}
+
+.ab a:hover {
+	opacity: 0.5;
+}
+
+.col-6 {
+	padding-right: 50px;
+	margin-top: 40px;
+}
+
+
+
+#info {
+	font-family: 'Cousine', monospace;
+	color: white;
+	font-size: 0.8em;
+	opacity: 0.6;
+
+}
+
+#about img {
+	width: 50px;
+	height: 50px;
+	margin-top: 9%;
+
+
+}
+
+/* work */
+
+.portfolio {
+
+	z-index: 100;
+	width: 100%;
+	padding: 5%;
+}
+
+.foto{
+  width: 90%;
+  height:20em;
+
+  margin-bottom:50%;
+  position: relative;
+  padding: 10px;
+
+  
+}
+
+.foto img{
+	 width: 110%;
+  height:20em;
+
+}
+
+
+.fotos {
+  width: 90%;
+  height:40em;
+ 
+  margin: auto;
+  position: relative;
+  padding: 10px;
+
+  
+}
+
+
+.fotos img{
+	width: 100%;
+  height:40em;
+
+}
+
+.onmouseover .fotos img{
+	width: 100%;
+  height:40em;
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .fotos {
+
+    width:50%;
+    height:25em;
+    margin-top: 3%;
+
+
+    }
+  }
+
+.fotos2 {
+  width: 90%;
+  height:40em;
+  
+  margin-top: 5%;
+  margin-left: 5%;
+  position: relative;
+  padding: 10px;
+
+  
+}
+
+.fotos2 img{
+  width: 100%;
+  height:40em;
+}
+
+
+/* uno */
+
+
+.col-4 {
+	position: absolute;
+	z-index: 100;
+	margin-left: 55%;
+	
+
+}
+
+.talk {
+	width: 300px;
+	color: white;
+	text-align: left;
+	margin-left: 12%;
+}
+ 
+.col-8 {
+	padding-left: 5%;
+	position: relative;
+	z-index: 90;
+}
+
+.col-8 img {
+	max-width: 700px;
+	margin-left: 5%;
+	margin-top: 5%;
+
+} 
+
+button {
+	border: 1px solid white;
+	color: white;
+	background-color: black;
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-weight: 400px;
+	text-transform: uppercase;
+	padding: 10px 40px;
+	margin-top: 30px;
+}
+
+button:hover {
+	opacity: 0.5;
+}
+
+
+/* dos */
+
+.dos {
+	position: absolute;
+	z-index: 100;
+	margin-left: 8%;
+}
+
+.do {
+	margin-top: 48%;
+	margin-left: 40%;
+	color: #fffff9;
+}
+
+.talk2 {
+	width: 300px;
+	text-align: right;
+	padding-left: 0;
+	padding-right: 5%;
+}
+
+.dosb img {
+	max-width: 700px;
+	margin-left: 55%;
+	margin-top: 5%;
+
+
+} 
+
+
+/* tres */
+
+.fi {
+	margin-top: 25%;
+	margin-left: -2%;
+
+}
+
+.talk3 {
+	width: 300px;
+}
+
+
+/* cuatro */
+.cuatrob {
+	margin-left: 4%;
+}
+
+
+.beg { 
+text-align: right; }
+
+.talk4 {
+	text-align: right;
+	margin-left: 12%;
+}
+
+.cuatro img {
+	margin-left: 50%;
+}
+
+/*cinco*/  
+.cincob img {
+	max-width: 530px;
+	margin-left: 15%;
+
+} 
+
+.tip {
+	margin-top: 40%;
+	margin-left: -23%;
+}
+
+.talk5 {
+	width: 300px;
+	padding-left: 0;
+	margin-left: -8%;
+}
+
+/*seis*/
+
+.seisb {
+
+}
+
+.draw { 
+	margin-left: -132%;
+	margin-top: 30%;
+
+ }
+
+.talk6 {
+	width: 300px;
+	margin-left: -149%;
+	text-align: right;
+}
+
+.seis img {
+	margin-left: 50%;
+}
+
+
+
+/********** contact ***********/
+
+.conta {
+	height: 100vh;
+	padding-left: 10%;
+	padding-top: 15%;
+}
+
+.conta img { 
+	width: 40px;
+	height: 40px;
+	margin-top: 4%;
+
+ }
+
+
+.con {
+	font-family: 'Cousine', monospace;
+	color: white;
+	font-size: 0.8em;
+	opacity: 0.6;
+}
+
+.co {
+ font-family: 'Helvetica', Arial, sans-serif;
+	font-size: 5em;
+	color: white;
+	font-weight: 600;
+
+}
